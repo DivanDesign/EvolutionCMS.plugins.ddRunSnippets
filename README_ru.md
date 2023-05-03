@@ -19,7 +19,7 @@
 Элементы → Плагины: Создайте новый плагин со следующими параметрами
 
 1. Название сниппета: `ddRunSnippets`.
-2. Описание: `<b>1.0</b> Плагин для (MODX)EvolutionCMS.snippets.ddRunSnippets.`.
+2. Описание: `<b>1.1</b> Плагин для (MODX)EvolutionCMS.snippets.ddRunSnippets.`.
 3. Категория: `Core`.
 4. Анализировать DocBlock: `no`.
 5. Код сниппета (php): Вставьте содержимое файла `ddRunSnippets_snippet.php` из архива.
