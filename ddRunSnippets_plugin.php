@@ -1,7 +1,7 @@
 //<?php
 /**
  * ddRunSnippets
- * @version 1.0 (2022-05-03)
+ * @version 1.1 (2022-05-04)
  * 
  * @see README.md
  * 
@@ -17,6 +17,7 @@ if(
 		[
 			'OnDocFormSave',
 			'OnDocFormDelete',
+			'OnCacheUpdate',
 		]
 	)
 ){
@@ -29,7 +30,10 @@ if(
 	$cacheObject = new \ddRunSnippets\Cache();
 	
 	$cacheObject->clearCache([
-		'docId' => $modx->Event->params['id']
+		'docId' => \DDTools\ObjectTools::getPropValue([
+			'object' => $modx->Event,
+			'propName' => 'params.id'
+		])
 	]);
 }
 //?>

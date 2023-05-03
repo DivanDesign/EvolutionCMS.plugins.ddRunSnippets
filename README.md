@@ -7,6 +7,7 @@ A plugin for [(MODX)EvolutionCMS.snippets.ddRunSnippets](https://github.com/Diva
 
 * PHP >= 7.4
 * [(MODX)EvolutionCMS](https://github.com/evolution-cms/evolution) >= 1.4
+* [(MODX)EvolutionCMS.libraries.ddTools](https://github.com/DivanDesign/EvolutionCMS.libraries.ddTools) >= 0.59
 * [(MODX)EvolutionCMS.snippets.ddRunSnippets](https://github.com/DivanDesign/EvolutionCMS.snippets.ddRunSnippets) >= 4.1
 
 
@@ -18,13 +19,14 @@ A plugin for [(MODX)EvolutionCMS.snippets.ddRunSnippets](https://github.com/Diva
 Elements → Plugins: Create a new snippet with the following data
 
 1. Plugin name: `ddRunSnippets`.
-2. Description: `<b>1.0</b> A plugin for (MODX)EvolutionCMS.snippets.ddRunSnippets.`.
+2. Description: `<b>1.1</b> A plugin for (MODX)EvolutionCMS.snippets.ddRunSnippets.`.
 3. Category: `Core`.
 4. Parse DocBlock: `no`.
 5. Plugin code (php): Insert content of the `ddRunSnippets_plugin.php` file from the archive.
 6. System events:
-	1. `OnDocFormDelete`.
-	2. `OnDocFormSave`.
+	1. `OnCacheUpdate`.
+	2. `OnDocFormDelete`.
+	3. `OnDocFormSave`.
 
 
 ### Using [(MODX)EvolutionCMS.libraries.ddInstaller](https://github.com/DivanDesign/EvolutionCMS.libraries.ddInstaller)

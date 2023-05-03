@@ -1,6 +1,10 @@
 # (MODX)EvolutionCMS.plugins.ddRunSnippets changelog
 
 
+## Version 1.1 (2022-05-04)
+* \+ All cache files will be deleted while `OnCacheUpdate`.
+
+
 ## Version 1.0 (2022-05-03)
 * \+ The first release.
 
