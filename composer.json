@@ -1,0 +1,37 @@
+{
+	"name": "dd/evolutioncms-plugins-ddrunsnippets",
+	"type": "modxevo-plugin",
+	"version": "1.0.0",
+	"description": "A plugin for (MODX)EvolutionCMS.snippets.ddRunSnippets.",
+	"keywords": [
+		"modx",
+		"modx evo",
+		"modx evolution",
+		"evo",
+		"evo cms",
+		"evolutioncms",
+		"evolution cms",
+		"dd group",
+		"dd studio",
+		"divandesign",
+		"ddrunsnippets",
+		"run snippets",
+		"run nested snippets"
+	],
+	"homepage": "https://github.com/DivanDesign/EvolutionCMS.plugins.ddRunSnippets",
+	"support": {
+		"chat": "https://t.me/dd_code"
+	},
+	"authors": [
+		{
+			"name": "Ilyas Ronef",
+			"email": "ilyas@DivanDesign.ru",
+			"homepage": "https://ronef.ru",
+			"role": "Owner"
+		}
+	],
+	"require": {
+		"php": ">=7.4.0",
+		"dd/evolutioncms-snippets-ddrunsnippets": ">=4.1.0"
+	}
+}
