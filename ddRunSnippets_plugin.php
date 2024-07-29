@@ -23,8 +23,8 @@ if(
 ){
 	//Include (MODX)EvolutionCMS.snippets.ddRunSnippets
 	require_once(
-		$modx->getConfig('base_path') .
-		'assets/snippets/ddRunSnippets/require.php'
+		$modx->getConfig('base_path')
+		. 'assets/snippets/ddRunSnippets/require.php'
 	);
 	
 	$cacheObject = new \ddRunSnippets\Cache();
@@ -32,8 +32,8 @@ if(
 	$cacheObject->clearCache([
 		'docId' => \DDTools\ObjectTools::getPropValue([
 			'object' => $modx->Event,
-			'propName' => 'params.id'
-		])
+			'propName' => 'params.id',
+		]),
 	]);
 }
 //?>

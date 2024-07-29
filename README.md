@@ -36,14 +36,14 @@ Just run the following PHP code in your sources or [Console](https://github.com/
 ```php
 //Include (MODX)EvolutionCMS.libraries.ddInstaller
 require_once(
-	$modx->getConfig('base_path') .
-	'assets/libs/ddInstaller/require.php'
+	$modx->getConfig('base_path')
+	. 'assets/libs/ddInstaller/require.php'
 );
 
 //Install (MODX)EvolutionCMS.plugins.ddRunSnippets
 \DDInstaller::install([
 	'url' => 'https://github.com/DivanDesign/EvolutionCMS.plugins.ddRunSnippets',
-	'type' => 'plugin'
+	'type' => 'plugin',
 ]);
 ```
 

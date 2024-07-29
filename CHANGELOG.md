@@ -2,10 +2,12 @@
 
 
 ## Version 1.1 (2023-05-04)
+
 * \+ All cache files will be deleted while `OnCacheUpdate`.
 
 
 ## Version 1.0 (2023-05-03)
+
 * \+ The first release.
 
 

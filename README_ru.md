@@ -36,14 +36,14 @@
 ```php
 //Подключение (MODX)EvolutionCMS.libraries.ddInstaller
 require_once(
-	$modx->getConfig('base_path') .
-	'assets/libs/ddInstaller/require.php'
+	$modx->getConfig('base_path')
+	. 'assets/libs/ddInstaller/require.php'
 );
 
 //Установка (MODX)EvolutionCMS.plugins.ddRunSnippets
 \DDInstaller::install([
 	'url' => 'https://github.com/DivanDesign/EvolutionCMS.plugins.ddRunSnippets',
-	'type' => 'plugin'
+	'type' => 'plugin',
 ]);
 ```
 
