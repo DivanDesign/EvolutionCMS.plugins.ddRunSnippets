@@ -1,11 +1,11 @@
 //<?php
 /**
  * ddRunSnippets
- * @version 1.1 (2022-05-04)
+ * @version 1.1.1 (2024-07-30)
  * 
  * @see README.md
  * 
- * @copyright 2023 Ronef {@link https://Ronef.ru }
+ * @copyright 2023–2024 Ronef {@link https://Ronef.me }
  */
 
 global $modx;
@@ -23,17 +23,17 @@ if(
 ){
 	//Include (MODX)EvolutionCMS.snippets.ddRunSnippets
 	require_once(
-		$modx->getConfig('base_path') .
-		'assets/snippets/ddRunSnippets/require.php'
+		$modx->getConfig('base_path')
+		. 'assets/snippets/ddRunSnippets/require.php'
 	);
 	
 	$cacheObject = new \ddRunSnippets\Cache();
 	
 	$cacheObject->clearCache([
-		'docId' => \DDTools\ObjectTools::getPropValue([
+		'resourceId' => \DDTools\ObjectTools::getPropValue([
 			'object' => $modx->Event,
-			'propName' => 'params.id'
-		])
+			'propName' => 'params.id',
+		]),
 	]);
 }
 //?>
