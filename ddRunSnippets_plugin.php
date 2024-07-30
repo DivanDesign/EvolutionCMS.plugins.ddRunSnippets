@@ -1,11 +1,11 @@
 //<?php
 /**
  * ddRunSnippets
- * @version 1.1 (2023-05-04)
+ * @version 1.1.1 (2024-07-30)
  * 
  * @see README.md
  * 
- * @copyright 2023 Ronef {@link https://Ronef.me }
+ * @copyright 2023–2024 Ronef {@link https://Ronef.me }
  */
 
 global $modx;
