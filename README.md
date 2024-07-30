@@ -7,8 +7,8 @@ A plugin for [(MODX)EvolutionCMS.snippets.ddRunSnippets](https://github.com/Diva
 
 * PHP >= 7.4
 * [(MODX)EvolutionCMS](https://github.com/evolution-cms/evolution) >= 1.4
-* [(MODX)EvolutionCMS.libraries.ddTools](https://github.com/DivanDesign/EvolutionCMS.libraries.ddTools) >= 0.59
-* [(MODX)EvolutionCMS.snippets.ddRunSnippets](https://github.com/DivanDesign/EvolutionCMS.snippets.ddRunSnippets) >= 4.1
+* [(MODX)EvolutionCMS.libraries.ddTools](https://github.com/DivanDesign/EvolutionCMS.libraries.ddTools) >= 0.62
+* [(MODX)EvolutionCMS.snippets.ddRunSnippets](https://github.com/DivanDesign/EvolutionCMS.snippets.ddRunSnippets) >= 4.2
 
 
 ## Installation

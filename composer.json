@@ -31,7 +31,7 @@
 	],
 	"require": {
 		"php": ">=7.4.0",
-		"dd/evolutioncms-libraries-ddtools": ">=0.59.0",
-		"dd/evolutioncms-snippets-ddrunsnippets": ">=4.1.0"
+		"dd/evolutioncms-libraries-ddtools": ">=0.62.0",
+		"dd/evolutioncms-snippets-ddrunsnippets": ">=4.2.0"
 	}
 }

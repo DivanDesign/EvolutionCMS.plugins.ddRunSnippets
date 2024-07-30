@@ -30,7 +30,7 @@ if(
 	$cacheObject = new \ddRunSnippets\Cache();
 	
 	$cacheObject->clearCache([
-		'docId' => \DDTools\ObjectTools::getPropValue([
+		'resourceId' => \DDTools\ObjectTools::getPropValue([
 			'object' => $modx->Event,
 			'propName' => 'params.id',
 		]),
