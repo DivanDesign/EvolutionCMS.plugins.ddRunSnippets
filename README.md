@@ -41,7 +41,7 @@ require_once(
 Elements → Plugins: Create a new snippet with the following data
 
 1. Plugin name: `ddRunSnippets`.
-2. Description: `<b>1.1.1</b> A plugin for (MODX)EvolutionCMS.snippets.ddRunSnippets.`.
+2. Description: `<b>1.1.2</b> A plugin for (MODX)EvolutionCMS.snippets.ddRunSnippets.`.
 3. Category: `Core`.
 4. Parse DocBlock: `no`.
 5. Plugin code (php): Insert content of the `ddRunSnippets_plugin.php` file from the archive.
