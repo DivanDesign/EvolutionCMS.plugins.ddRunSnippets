@@ -1,6 +1,13 @@
 # (MODX)EvolutionCMS.plugins.ddRunSnippets changelog
 
 
+## Version 1.1.2 (2024-08-02)
+
+* \* Совместимость с (MODX)EvolutionCMS.snippets.ddRunSnippets >= 4.2.1.
+* \* Внимание! Требуется (MODX)EvolutionCMS.snippets.ddRunSnippets >= 4.2.1.
+* \* Внимание! Требуется (MODX)EvolutionCMS.libraries.ddTools >= 0.63.
+
+
 ## Версия 1.1.1 (2024-07-30)
 
 * \* Исправлен баг, кода ID документа не использовался и при каждом сохранении / удалении документа очищался весь кэш.

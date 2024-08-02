@@ -7,8 +7,8 @@
 
 * PHP >= 7.4
 * [(MODX)EvolutionCMS](https://github.com/evolution-cms/evolution) >= 1.4
-* [(MODX)EvolutionCMS.libraries.ddTools](https://github.com/DivanDesign/EvolutionCMS.libraries.ddTools) >= 0.62
-* [(MODX)EvolutionCMS.snippets.ddRunSnippets](https://github.com/DivanDesign/EvolutionCMS.snippets.ddRunSnippets) >= 4.2
+* [(MODX)EvolutionCMS.libraries.ddTools](https://github.com/DivanDesign/EvolutionCMS.libraries.ddTools) >= 0.63
+* [(MODX)EvolutionCMS.snippets.ddRunSnippets](https://github.com/DivanDesign/EvolutionCMS.snippets.ddRunSnippets) >= 4.2.1
 
 
 ## Установка
@@ -41,7 +41,7 @@ require_once(
 Элементы → Плагины: Создайте новый плагин со следующими параметрами
 
 1. Название сниппета: `ddRunSnippets`.
-2. Описание: `<b>1.1.1</b> Плагин для (MODX)EvolutionCMS.snippets.ddRunSnippets.`.
+2. Описание: `<b>1.1.2</b> Плагин для (MODX)EvolutionCMS.snippets.ddRunSnippets.`.
 3. Категория: `Core`.
 4. Анализировать DocBlock: `no`.
 5. Код сниппета (php): Вставьте содержимое файла `ddRunSnippets_snippet.php` из архива.

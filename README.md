@@ -7,8 +7,8 @@ A plugin for [(MODX)EvolutionCMS.snippets.ddRunSnippets](https://github.com/Diva
 
 * PHP >= 7.4
 * [(MODX)EvolutionCMS](https://github.com/evolution-cms/evolution) >= 1.4
-* [(MODX)EvolutionCMS.libraries.ddTools](https://github.com/DivanDesign/EvolutionCMS.libraries.ddTools) >= 0.62
-* [(MODX)EvolutionCMS.snippets.ddRunSnippets](https://github.com/DivanDesign/EvolutionCMS.snippets.ddRunSnippets) >= 4.2
+* [(MODX)EvolutionCMS.libraries.ddTools](https://github.com/DivanDesign/EvolutionCMS.libraries.ddTools) >= 0.63
+* [(MODX)EvolutionCMS.snippets.ddRunSnippets](https://github.com/DivanDesign/EvolutionCMS.snippets.ddRunSnippets) >= 4.2.1
 
 
 ## Installation
@@ -41,7 +41,7 @@ require_once(
 Elements → Plugins: Create a new snippet with the following data
 
 1. Plugin name: `ddRunSnippets`.
-2. Description: `<b>1.1.1</b> A plugin for (MODX)EvolutionCMS.snippets.ddRunSnippets.`.
+2. Description: `<b>1.1.2</b> A plugin for (MODX)EvolutionCMS.snippets.ddRunSnippets.`.
 3. Category: `Core`.
 4. Parse DocBlock: `no`.
 5. Plugin code (php): Insert content of the `ddRunSnippets_plugin.php` file from the archive.

@@ -1,11 +1,11 @@
 //<?php
 /**
  * ddRunSnippets
- * @version 1.1.1 (2024-07-30)
+ * @version 1.1.2 (2024-08-02)
  * 
  * @see README.md
  * 
- * @copyright 2023–2024 Ronef {@link https://Ronef.me }
+ * @copyright 2023–2024 https://Ronef.me
  */
 
 global $modx;
@@ -27,9 +27,7 @@ if(
 		. 'assets/snippets/ddRunSnippets/require.php'
 	);
 	
-	$cacheObject = new \ddRunSnippets\Cache();
-	
-	$cacheObject->clearCache([
+	\DDTools\Tools\Cache::delete([
 		'resourceId' => \DDTools\ObjectTools::getPropValue([
 			'object' => $modx->Event,
 			'propName' => 'params.id',
