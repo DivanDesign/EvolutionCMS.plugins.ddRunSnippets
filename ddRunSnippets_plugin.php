@@ -27,9 +27,7 @@ if(
 		. 'assets/snippets/ddRunSnippets/require.php'
 	);
 	
-	$cacheObject = new \ddRunSnippets\Cache();
-	
-	$cacheObject->clearCache([
+	\DDTools\Tools\Cache::delete([
 		'resourceId' => \DDTools\ObjectTools::getPropValue([
 			'object' => $modx->Event,
 			'propName' => 'params.id',
