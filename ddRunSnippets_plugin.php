@@ -5,7 +5,7 @@
  * 
  * @see README.md
  * 
- * @copyright 2023–2024 Ronef {@link https://Ronef.me }
+ * @copyright 2023–2024 https://Ronef.me
  */
 
 global $modx;
