@@ -21,7 +21,7 @@ if(
 		]
 	)
 ){
-	//Include (MODX)EvolutionCMS.snippets.ddRunSnippets
+	// Include (MODX)EvolutionCMS.snippets.ddRunSnippets
 	require_once(
 		$modx->getConfig('base_path')
 		. 'assets/snippets/ddRunSnippets/require.php'

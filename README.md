@@ -19,13 +19,13 @@ A plugin for [(MODX)EvolutionCMS.snippets.ddRunSnippets](https://github.com/Diva
 Just run the following PHP code in your sources or [Console](https://github.com/vanchelo/MODX-Evolution-Ajax-Console):
 
 ```php
-//Include (MODX)EvolutionCMS.libraries.ddInstaller
+// Include (MODX)EvolutionCMS.libraries.ddInstaller
 require_once(
 	$modx->getConfig('base_path')
 	. 'assets/libs/ddInstaller/require.php'
 );
 
-//Install (MODX)EvolutionCMS.plugins.ddRunSnippets
+// Install (MODX)EvolutionCMS.plugins.ddRunSnippets
 \DDInstaller::install([
 	'url' => 'https://github.com/DivanDesign/EvolutionCMS.plugins.ddRunSnippets',
 	'type' => 'plugin',
